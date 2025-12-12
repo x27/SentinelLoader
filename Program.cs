@@ -8,6 +8,7 @@ namespace SentinelLoader
 {
     internal static class Program
     {
+        [STAThread]
         static void Main()
         {
             const string US_EXE = "BCDx36HP_Sentinel.exe";
